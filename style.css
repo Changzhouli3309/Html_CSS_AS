@@ -12,11 +12,10 @@ body:after {
     display: table;
     clear: both;
   }
-  header {
+header {
     background-color: orange;
     text-align: center;
     border:2px solid black;
-    padding: -10px;
     height: 60px;
 }
 header h1 {
