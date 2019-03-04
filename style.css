@@ -66,7 +66,7 @@ body>nav{
     margin-right: 300px;
     overflow: hidden;
 }
-nav h2{
+nav>h2{
     border:2px solid black;
     background-color: gray;
     float: left;
@@ -80,20 +80,23 @@ nav>p{
     float: left;
     margin: 10px 15px 0px 10px;
 }
-nav article{
+nav>article{
     border:2px solid black;
     background-color: gray;
     float: left;
     width: 340px;
     margin: 10px 0px 0px 10px;
 }
-nav article h3{
+nav>article>h3{
     background-color: gray;
     text-align: center;
     padding: 10px;
 }
 
 p{
+    padding: 10px;
+}
+img{
     padding: 10px;
 }
 
